@@ -103,6 +103,132 @@ h6 {
   }
 }
 
+.portfolio-item .btn-worksync {
+  background-color: #5C8374; 
+  color: #fff;
+  padding: 10px 20px; 
+  border-radius: 20px; 
+  text-decoration: none; 
+  display: inline-block; 
+}
+
+.portfolio-item .btn-worksync:hover {
+  background: #000;
+  color: #fff;
+}
+
+.portfolio-item .btn-addonerp {
+  background-color: #084D88; 
+  color: #fff;
+  padding: 10px 20px; 
+  border-radius: 20px; 
+  text-decoration: none; 
+  display: inline-block; 
+}
+
+.portfolio-item .btn-addonerp:hover {
+  background: #000;
+  color: #fff;
+}
+
+.portfolio-item .btn-plantdoc {
+  background-color: #61AF2B; 
+  color: #fff;
+  padding: 10px 20px; 
+  border-radius: 20px; 
+  text-decoration: none; 
+  display: inline-block; 
+}
+
+.portfolio-item .btn-plantdoc:hover {
+  background: #000;
+  color: #fff;
+}
+
+.portfolio-item .btn-allboom {
+  background-color: #CDC7B9; 
+  color: #000;
+  padding: 10px 20px; 
+  border-radius: 20px; 
+  text-decoration: none; 
+  display: inline-block; 
+}
+
+.portfolio-item .btn-allboom:hover {
+  background: #000;
+  color: #fff;
+}
+
+.portfolio-item .btn-diskonkuyy {
+  background-color: #92a8d1; 
+  color: #fff;
+  padding: 10px 20px; 
+  border-radius: 20px; 
+  text-decoration: none; 
+  display: inline-block; 
+}
+
+.portfolio-item .btn-diskonkuyy:hover {
+  background: #000;
+  color: #fff;
+}
+
+.portfolio-item .btn-eco {
+  background-color: #C9149E; 
+  color: #fff;
+  padding: 10px 20px; 
+  border-radius: 20px; 
+  text-decoration: none; 
+  display: inline-block; 
+}
+
+.portfolio-item .btn-eco:hover {
+  background: #000;
+  color: #fff;
+}
+
+.portfolio-item .btn-stories {
+  background-color: #8961A4; 
+  color: #fff;
+  padding: 10px 20px; 
+  border-radius: 20px; 
+  text-decoration: none; 
+  display: inline-block; 
+}
+
+.portfolio-item .btn-stories:hover {
+  background: #000;
+  color: #fff;
+}
+
+.portfolio-item .btn-github {
+  background-color: #B1DDF3; 
+  color: #000;
+  padding: 10px 20px; 
+  border-radius: 20px; 
+  text-decoration: none; 
+  display: inline-block; 
+}
+
+.portfolio-item .btn-github:hover {
+  background: #000;
+  color: #fff;
+}
+
+.portfolio-item .btn-book {
+  background-color: #17CA60; 
+  color: #000;
+  padding: 10px 20px; 
+  border-radius: 20px; 
+  text-decoration: none; 
+  display: inline-block; 
+}
+
+.portfolio-item .btn-book:hover {
+  background: #000;
+  color: #fff;
+}
+
 .back-to-top {
   position: fixed;
   visibility: hidden;
