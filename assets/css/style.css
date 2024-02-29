@@ -103,6 +103,20 @@ h6 {
   }
 }
 
+.portfolio-item .btn-trashtotreat {
+  background-color: #FF6726; 
+  color: #fff;
+  padding: 10px 20px; 
+  border-radius: 20px; 
+  text-decoration: none; 
+  display: inline-block; 
+}
+
+.portfolio-item .btn-trashtotreat:hover {
+  background: #000;
+  color: #fff;
+}
+
 .portfolio-item .btn-worksync {
   background-color: #5C8374; 
   color: #fff;
