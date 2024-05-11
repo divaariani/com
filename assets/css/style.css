@@ -103,6 +103,20 @@ h6 {
   }
 }
 
+.portfolio-item .btn-pondmate {
+  background-color: #7ABBF3; 
+  color: #fff;
+  padding: 10px 20px; 
+  border-radius: 20px; 
+  text-decoration: none; 
+  display: inline-block; 
+}
+
+.portfolio-item .btn-pondmate:hover {
+  background: #000;
+  color: #7ABBF3;
+}
+
 .portfolio-item .btn-trashtotreat {
   background-color: #FF6726; 
   color: #fff;
@@ -114,7 +128,7 @@ h6 {
 
 .portfolio-item .btn-trashtotreat:hover {
   background: #000;
-  color: #fff;
+  color: #FF6726;
 }
 
 .portfolio-item .btn-worksync {
@@ -128,7 +142,7 @@ h6 {
 
 .portfolio-item .btn-worksync:hover {
   background: #000;
-  color: #fff;
+  color: #5C8374;
 }
 
 .portfolio-item .btn-addonerp {
@@ -142,7 +156,7 @@ h6 {
 
 .portfolio-item .btn-addonerp:hover {
   background: #000;
-  color: #fff;
+  color: #084D88;
 }
 
 .portfolio-item .btn-plantdoc {
@@ -156,7 +170,7 @@ h6 {
 
 .portfolio-item .btn-plantdoc:hover {
   background: #000;
-  color: #fff;
+  color: #61AF2B;
 }
 
 .portfolio-item .btn-allboom {
@@ -170,7 +184,7 @@ h6 {
 
 .portfolio-item .btn-allboom:hover {
   background: #000;
-  color: #fff;
+  color: #CDC7B9;
 }
 
 .portfolio-item .btn-diskonkuyy {
@@ -184,7 +198,7 @@ h6 {
 
 .portfolio-item .btn-diskonkuyy:hover {
   background: #000;
-  color: #fff;
+  color: #92a8d1;
 }
 
 .portfolio-item .btn-eco {
@@ -198,7 +212,7 @@ h6 {
 
 .portfolio-item .btn-eco:hover {
   background: #000;
-  color: #fff;
+  color: #C9149E;
 }
 
 .portfolio-item .btn-stories {
@@ -212,7 +226,7 @@ h6 {
 
 .portfolio-item .btn-stories:hover {
   background: #000;
-  color: #fff;
+  color: #8961A4;
 }
 
 .portfolio-item .btn-github {
@@ -226,7 +240,7 @@ h6 {
 
 .portfolio-item .btn-github:hover {
   background: #000;
-  color: #fff;
+  color: #B1DDF3;
 }
 
 .portfolio-item .btn-book {
@@ -240,7 +254,7 @@ h6 {
 
 .portfolio-item .btn-book:hover {
   background: #000;
-  color: #fff;
+  color: #17CA60;
 }
 
 .back-to-top {
