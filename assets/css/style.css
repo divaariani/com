@@ -285,6 +285,20 @@ h6 {
   color: #0574E4;
 }
 
+.portfolio-item .btn-lecturer {
+  background-color: #EB6F4E; 
+  color: #fff;
+  padding: 10px 20px; 
+  border-radius: 20px; 
+  text-decoration: none; 
+  display: inline-block; 
+}
+
+.portfolio-item .btn-lecturer:hover {
+  background: #000;
+  color: #EB6F4E;
+}
+
 .back-to-top {
   position: fixed;
   visibility: hidden;
