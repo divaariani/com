@@ -257,6 +257,21 @@ h6 {
   color: #17CA60;
 }
 
+.portfolio-item .btn-tendik {
+  background-color: #FF8933; 
+  color: #000;
+  padding: 10px 20px; 
+  border-radius: 20px; 
+  text-decoration: none; 
+  display: inline-block; 
+}
+
+.portfolio-item .btn-tendik:hover {
+  background: #000;
+  color: #FF8933;
+}
+
+
 .back-to-top {
   position: fixed;
   visibility: hidden;
