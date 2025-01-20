@@ -271,6 +271,19 @@ h6 {
   color: #FF8933;
 }
 
+.portfolio-item .btn-student {
+  background-color: #0574E4; 
+  color: #fff;
+  padding: 10px 20px; 
+  border-radius: 20px; 
+  text-decoration: none; 
+  display: inline-block; 
+}
+
+.portfolio-item .btn-student:hover {
+  background: #000;
+  color: #0574E4;
+}
 
 .back-to-top {
   position: fixed;
