@@ -299,6 +299,20 @@ h6 {
   color: #EB6F4E;
 }
 
+.portfolio-item .btn-innovation {
+  background-color: #3A468F; 
+  color: #fff;
+  padding: 10px 20px; 
+  border-radius: 20px; 
+  text-decoration: none; 
+  display: inline-block; 
+}
+
+.portfolio-item .btn-innovation:hover {
+  background: #000;
+  color: #3A468F;
+}
+
 .portfolio-item .btn-banoo {
   background-color: #37CCC2; 
   color: #fff;
