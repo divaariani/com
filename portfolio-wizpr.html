@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio Details - Wizpr</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <main id="main">
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/wizpr-1.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/wizpr-2.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/wizpr-3.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/wizpr-4.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/wizpr-5.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/wizpr-6.png" alt="">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/wizpr-7.png" alt="">
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Mobile (Android & iOS) App</li>
+                <li><strong>Role</strong>: Mobile Developer</li>
+                <li><strong>Project date</strong>: Aug 2025 - Present</li>
+                <li><strong>Description</strong>: Wizpr is a secure communication platform built for conversations. Powered by intelligent privacy agents, dynamic access technology, and real time encryption. This app creates a space where teams and individuals can communicate freely without sacrificing security. </li>
+                <!-- <li><strong>URL Google Play Store</strong>: <a href="https://play.google.com/store/apps/details?id=id.ac.ipb.mobile.student&hl=id">Android App</a></li>
+                <li><a href="https://play.google.com/store/apps/details?id=id.ac.ipb.mobile.student">https://play.google.com/store/apps/details?id=id.ac.ipb.mobile.student</a></li> -->
+                <li><strong>URL App Store</strong>: <a href="https://apps.apple.com/id/app/wizpr-secure-messenger/id6758970916?l=id">iOS App</a></li>
+                <li><a href="https://apps.apple.com/id/app/wizpr-secure-messenger/id6758970916?l=id">https://apps.apple.com/id/app/wizpr-secure-messenger/id6758970916?l=id</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="portfolio-description">
+            <h2>Description</h2>
+            <p>
+                This application is a privacy-first, secure mobile communication platform built with Flutter. It balances robust hardware-linked security with a frictionless user experience. The app features secure device-bound registration, biometric authentication with automatic fail-safes, dynamic time-bound peer discovery (QR/Hash), and a rich-media communication suite (Chat, Voice, and Video calls).
+                A key differentiator is its dual-messaging architecture, offering standard direct messaging (Legacy Mode) alongside completely anonymized, auto-named group chats (Ghost Mode). The entire real-time messaging infrastructure is powered by a custom-engineered, team-optimized Flutter Chat SDK.
+            </p>
+          </div>
+
+          <div class="portfolio-description">
+            <h2>Problem</h2>
+            <p>When designing modern communication applications, developers and users typically face three core challenges:</p>
+            
+            <ol>
+              <li>
+                <strong>Identity & Access:</strong> Standard username/password combinations are easily compromised, and accounts are often accessed from unauthorized, malicious devices.
+              </li>
+              <li>
+                <strong>Privacy in Group Dynamics:</strong> Users frequently want to discuss topics in groups without exposing their personal identities, phone numbers, or names to other members.
+              </li>
+              <li>
+                <strong>Complex SDK Implementations:</strong> Off the shelf communication SDKs are often bloated, rigid, and difficult to maintain, leading to messy codebases and slow development cycles.
+              </li>
+              <li>
+                <strong>Friction vs Security:</strong> High security features (like long passwords and manual keys) often ruin the onboarding experience, causing users to abandon the app.
+              </li>
+            </ol>
+          </div>
+
+          <div class="portfolio-description">
+            <h2>Solution</h2>
+            <p>To solve these challenges, the platform implements specific, high performance architectural choices:</p>
+            
+            <ol>
+              <li>
+                <strong>Device Bound Security & Self Recovery</strong><br>
+                The app binds the user's account to their physical smartphone hardware using a seamless unique Device ID during registration. If a user forgets their password, they rely on a self 5 words random recovery phrase, eliminating the need to store sensitive data on centralized recovery servers.
+              </li>
+              <li>
+                <strong>Frictionless UX</strong><br>
+                Onboarding utilizes biometrics (Fingerprint/Face ID) for instant access. To prevent hardware related lockouts, the system features an intelligent fallback mechanism that redirects users to a secure password login after 3 failed biometric attempts.
+              </li>
+              <li>
+                <strong>Secure Peer Discovery</strong><br>
+                Instead of static, leak prone invite links, contacts are added via proximity QR scanning or unique Hash Codes. These codes utilize a Time based One Time Password (TOTP) logic that expires every 3 minutes, ensuring secure and intentional connections.
+              </li>
+              <li>
+                <strong>Identity Anonymization (Ghost Mode)</strong><br>
+                To protect user privacy in group settings, the app features Ghost Mode. The system automatically generates the group name and completely anonymizes all participants, allowing open communication without identity exposure.
+              </li>
+              <li>
+                <strong>Custom Engineered Developer Experience</strong><br>
+                Instead of wrestling with rigid third party code, the development team redesigned and customized a Flutter Chat SDK. This encapsulation streamlined the codebase, simplified state management, and made adding features (like pinning, starring, and replying to messages) incredibly efficient.
+              </li>
+            </ol>
+          </div>
+
+          <div class="portfolio-description">
+            <h2>Methodology</h2>
+            <p>Our engineering methodology focuses on code modularity, strict environment separation, and rigorous security standards:</p>
+            
+            <ol>
+              <li>
+                <strong>Modularization (Internal Packages):</strong> Architected into 6 isolated internal packages to ensure reusability and clean separation of concerns (including network client, chat SDK, local auth bridge, notifications, and call wrappers).
+              </li>
+              <li>
+                <strong>Environment Strategy:</strong> Utilizes 3 separate Build Flavors to strictly isolate Development, Staging, and Production environments.
+              </li>
+              <li>
+                <strong>Security & Privacy:</strong> Hardened security using libsodium for E2EE, biometric authentication, screenshot prevention, and dynamic group anonymization (Ghost Mode).
+              </li>
+              <li>
+                <strong>Reliability & Testing:</strong> Robust offline first mechanism with automatic data synchronization upon reconnection, backed by 28 targeted test files (focused on cryptography) and centralized logging via Talker.
+              </li>
+            </ol>
+          </div>
+
+          <div class="portfolio-description">
+            <h2>Architecture Code</h2>
+            <p>The technical architecture is built for high performance, predictable state management, and high scale maintainability:</p>
+            
+            <ol>
+              <li>
+                <strong>Architectural Pattern:</strong> Strict Clean Architecture (Domain, Data, Presentation layers) combined with the BLoC Pattern. Robust codebase scale including 27 entities, 6 repositories, and 52 use cases.
+              </li>
+              <li>
+                <strong>State Management & Routing:</strong> Implements flutter_bloc + equatable for reactive state handling, alongside go_router managing a complex navigation network of 80+ routes.
+              </li>
+              <li>
+                <strong>Data & Real time Stream:</strong> Integrates Socket.IO for instant messaging, LiveKit for voice/video calls, and Drift ORM (SQLite) for structured local data.
+              </li>
+              <li>
+                <strong>Design Patterns:</strong> Leverages Repository, Use Case, Strategy Pattern (for multi-provider E2EE architecture), Provider, and Observer Pattern for centralized logging.
+              </li>
+            </ol>
+          </div>
+
+          <div class="portfolio-description">
+            <h2>Role Details</h2>
+            <p>Key responsibilities and technical features implemented during the project development:</p>
+            
+            <ul>
+              <li><strong>App Store Deployment:</strong> Published updates and managed releases directly to the Google Play Store and iOS App Store.</li>
+              <li><strong>Secure Onboarding & Auth Flow:</strong> Developed the entire user registration pipeline, including unique device ID binding, 5 words secure random recovery phrase generation, and biometric authentication setup.</li>
+              <li><strong>Advanced Chat Features:</strong> Engineered rich messaging interactions, including real-time message reactions, pinning important notices, and starring messages for quick access.</li>
+              <li><strong>Identity Customization:</strong> Implemented the profile management module, allowing users to update their full names and change avatars via camera, gallery, or default assets.</li>
+              <li><strong>Privacy Architecture (Ghost Mode):</strong> Developed and integrated the privacy-centric Ghost Mode feature for completely anonymized group messaging.</li>
+              <li><strong>UI Slicing & Video Calls:</strong> Handled the precise UI slicing for group video calling screens, ensuring an intuitive and responsive layout.</li>
+              <li><strong>Call Analytics & Management:</strong> Built the comprehensive call history list view along with its detailed interaction logs.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
