@@ -1516,3 +1516,22 @@ section {
 #footer .credits a {
   color: #85586F;
 }
+
+/* Certificate Card Styles */
+.resume .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resume .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1) !important;
+}
+
+.resume .card-img-top {
+  transition: transform 0.4s ease;
+}
+
+.resume .card:hover .card-img-top {
+  transform: scale(1.03);
+}
+
