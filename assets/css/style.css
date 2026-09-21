@@ -999,6 +999,23 @@ section {
   margin-bottom: 10px;
 }
 
+.resume .work-type {
+  display: inline-block;
+  padding: 2px 10px;
+  margin-left: 8px;
+  font-size: 11px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 10px;
+  vertical-align: middle;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.resume .work-type.remote { background: #e3f2fd; color: #1565c0; }
+.resume .work-type.hybrid { background: #fff3e0; color: #e65100; }
+.resume .work-type.onsite { background: #e8f5e9; color: #2e7d32; }
+
 .resume .resume-item h5 {
   font-size: 16px;
   background: #f2eef0;
